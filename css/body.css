@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*  Author: Trung Shin  */
+#body
+{
+	margin-top: 180px;
+}
+
+/* Responsive with max-width = 869px */
+@media screen and (max-width: 869px)
+{
+	#body
+{
+	margin-top: 80px;
+}
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<!--  Author: Trung Shin  -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+
+        <!-- CSS -->
+        <link href="css/sercurity.css" type="text/css" rel="stylesheet"/>
+        <link href="css/header.css" type="text/css" rel="stylesheet"/>
+        <link href="css/body.css" type="text/css" rel="stylesheet"/>
+        <link href="css/button.css" type="text/css" rel="stylesheet"/>
+        <link href="css/contact.css" type="text/css" rel="stylesheet"/>
+
+        <!-- Javascript -->
+        <script src="javascript/sercurity.js" type="text/javascript"></script>
+        <script src="javascript/header.js" type="text/javascript"></script>
+        <script src="javascript/button.js" type="text/javascript"></script>
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+
+    <body onResize="closeBtn()">
+        <!--  Header  -->
+        <div id="header">
+            <div id="logo"><a href="KAStudio.html"><img src="image/logo.png"></a></div>
+            <div id="showBtn" onClick="showBtn()">&equiv;</div>
+            <div id="closeBtn" onClick="closeBtn()">&equiv;</div>
+            <div id="menu">
+                <div id="menu1"><a href="newborn.html">NEWBORN</a></div>
+                <div id="menu2"><a href="baby.html">BABY</a></div>
+                <div id="menu3"><a href="price.html">PRICE</a></div>
+                <div id="menu4"><a href="contact.html">CONTACT</a></div>
+            </div>
+        </div>
+        <div id="body">
+            <div id="content">
+                <img src="image/logo.png" id="logo1"/><br>
+                <img src="image/locationIcon.png" class="icon"/><span>Address:</span> 88 đường 30/4, TT Trảng Bom, Trảng Bom, Đồng Nai.<br>
+                <img src="image/phoneIcon.png" class="icon"/><span>Phone:</span> 0985617278<br>
+                <img src="image/facebookIcon.png" class="icon"/><span>Facebook:</span> https://www.facebook.com/kababystudio/
+            </div>
+            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.82617029459425!2d107.0041910049545!3d10.94684382016829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x306a79575c119121!2zS0EgU1RVRElPIENo4bulcCDhuqJuaCBCYWJ5!5e0!3m2!1sen!2s!4v1541654990289" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        </div>
+        <div id="button">
+            <div id="button1"><a href="https://www.facebook.com/kababystudio/" target="_blank"><img src="image/facebookIcon.png"></a></div><br>
+            <div id="button2"><a href="https://goo.gl/maps/SCTKKbWDkh92" target="_blank"><img src="image/locationIcon.png"></a></div><br>
+            <div id="button3">
+                <img src="image/phoneIcon.png" onClick="showButton3Info()" id="showButton3Info">
+                <img src="image/phoneIcon.png" onClick="closeButton3Info()" id="closeButton3Info">
+                <div id="button3Info" onClick="closeButton3Info()">
+                    <span>Phone:</span> 0985617278
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,255 @@
+@charset "utf-8";
+/*  Author: Trung Shin  */
+
+#header
+{
+    border-bottom: 1px solid bisque;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    display: block;
+    transition: all 0.3s;
+    background-color: #F8F8F8;
+}
+
+/* Logo */
+#logo
+{
+    box-sizing: border-box;
+    float: left;
+}
+
+/* Menu */
+#menu
+{
+    box-sizing: border-box;
+    float: left;
+}
+#menu a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#menu1, #menu2, #menu3, #menu4
+{
+    float: left;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+
+
+#menu1:hover a, #menu2:hover a, #menu3:hover a, #menu4:hover a, #showBtn:hover 
+{
+    color: gray;
+}
+
+#showBtn, #closeBtn
+{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+#showBtn
+{
+    color: black;
+}
+#closeBtn
+{
+    color: gray;
+}
+/* Responsive with min-width = 1250px */
+@media screen and (min-width: 1250px)
+{
+    /* Header */
+    #header
+    {
+        width: 100%;
+        height: 100px;
+    }
+
+    /* Logo */
+    #logo
+    {
+        width: 50%;
+    }
+    #logo img
+    {
+        margin-left: 30%;
+    }
+
+    /* Menu */
+    #menu
+    {
+        width: 50%;
+    }
+    #menu1, #menu2, #menu3, #menu4
+    {
+        font-size: 1.5em;
+        width: auto;
+        height: 60px;
+        margin: 20px 20px;
+        padding-top: 10px;
+    }
+    #menu1, #menu2, #menu3
+    {
+        padding-right: 10px;
+    }
+    #menu2, #menu3, #menu4
+    {
+        padding-left: 10px;
+    }
+
+    #showBtn, #closeBtn
+    {
+        display: none;
+    }
+}
+
+/* Responsive with min-width = 950px and max-width = 1249px */
+@media screen and (max-width: 1249px) and (min-width: 950px)
+{
+    /* Header */
+    #header
+    {
+        width: 100%;
+        height: 100px;
+    }
+
+    /* Logo */
+    #logo
+    {
+        width: 40%;
+    }
+    #logo img
+    {
+        margin-left: 30%;
+    }
+
+    /* Menu */
+    #menu
+    {
+        width: 60%;
+    }
+    #menu1, #menu2, #menu3, #menu4
+    {
+        font-size: 1.5em;
+        width: auto;
+        height: 60px;
+        margin: 20px 20px;
+        padding-top: 10px;
+    }
+    #menu1, #menu2, #menu3
+    {
+        padding-right: 10px;
+    }
+    #menu2, #menu3, #menu4
+    {
+        padding-left: 10px;
+    }
+
+    #showBtn, #closeBtn
+    {
+        display: none;
+    }
+}
+/* Responsive with min-width = 870px and max-width = 949px */
+@media screen and (max-width: 949px) and (min-width: 870px)
+{
+
+    /* Header */
+    #header
+    {
+        width: 100%;
+        height: 100px;
+    }
+
+    /* Logo */
+    #logo
+    {
+        width: 35%;
+    }
+    #logo img
+    {
+        margin-left: 30%;
+    }
+
+    /* Menu */
+    #menu
+    {
+        width: 65%;
+    }
+    #menu1 {
+        margin-left: 5%;
+    }
+    #menu1, #menu2, #menu3, #menu4
+    {
+        font-size: 1.5em;
+        width: auto;
+        height: 60px;
+        margin: 20px 20px;
+        padding-top: 10px;
+    }
+    #menu1, #menu2, #menu3
+    {
+        padding-right: 10px;
+    }
+    #menu2, #menu3, #menu4
+    {
+        padding-left: 10px;
+    }
+
+    #showBtn, #closeBtn
+    {
+        display: none;
+    }
+}
+
+/* Responsive with max-width = 869px */
+@media screen and (max-width: 869px)
+{
+    /* Header */
+    #header
+    {
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    /* Logo */
+    #logo
+    {
+        width: 30%;
+    }
+    #logo img
+    {
+        margin-left: 30%;
+        height: 70px;
+    }
+
+    /* Menu */
+    #menu, #menu1, #menu2, #menu3, #menu4
+    {
+        font-size: 1.1em;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    #showBtn
+    {
+        display: block;
+    }
+    #closeBtn
+    {
+        display: none;
+    }
+	#header
+	{
+		opacity: 0.8;
+	}
+}

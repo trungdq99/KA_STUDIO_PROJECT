@@ -1,0 +1,127 @@
+@charset "utf-8";
+/*  Author: Trung Shin  */
+
+#button
+{
+	position: fixed;
+	z-index: 1;
+}
+#button1, #button2, #button3
+{
+	float: left;
+	margin-bottom: 5px;
+}
+
+#button1 img, #button2 img, #button3 img
+{
+	width: 20px;
+	height: 20px;
+}
+#button3Info
+{
+	border: 1px solid bisque;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	font-family: 'Open Sans Condensed', sans-serif;
+	box-sizing: border-box;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	transition: all 0.5s;
+	background-color: #F8F8F8;
+	opacity: 1;
+}
+
+#closeButton3Info
+{
+	display: none;
+}
+#button3Info span
+{
+	font-weight: bold;
+}
+
+#button3
+{
+	cursor: pointer;
+}
+
+/* Responsive with min-width = 1250px */
+@media screen and (min-width: 1250px)
+{
+	#button
+	{
+		bottom: 20px;
+		left: 40px;
+	}
+	
+	#button3Info
+	{
+		font-size: 1.5em;
+		padding-top: 14px;
+		width: 250px;
+		height: 70px;
+		left: 35px;
+		bottom: 15px;
+	}
+}
+
+/* Responsive with min-width = 950px and max-width = 1249px */
+@media screen and (max-width: 1249px) and (min-width: 950px)
+{
+	#button
+	{
+		bottom: 18px;
+		left: 35px;
+	}
+	
+	#button3Info
+	{
+		font-size: 1.4em;
+		padding-top: 14px;
+		width: 230px;
+		height: 65px;
+		left: 35px;
+		bottom: 15px;
+	}
+}
+
+/* Responsive with min-width = 870px and max-width = 949px */
+@media screen and (max-width: 949px) and (min-width: 870px)
+{
+	#button
+	{
+		bottom: 16px;
+		left: 27px;
+	}
+	
+	#button3Info
+	{
+		font-size: 1.3em;
+		padding-top: 8px;
+		width: 200px;
+		height: 50px;
+		left: 35px;
+		bottom: 15px;
+	}
+}
+	
+/* Responsive with max-width = 869px */
+@media screen and (max-width: 869px)
+{
+	#button
+	{
+		bottom: 30px;
+		right: 7px;
+	}
+	
+	#button3Info
+	{
+		font-size: 1.2em;
+		padding-top: 8px;
+		width: 200px;
+		height: 50px;
+		right: 23px;
+		bottom: 12px;
+	}
+}

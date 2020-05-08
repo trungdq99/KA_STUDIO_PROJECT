@@ -1,0 +1,297 @@
+@charset "utf-8";
+/*  Author: Trung Shin  */
+#body
+{
+    margin-top: 130px;
+}
+.d
+{
+    float: left;
+}
+
+.d1
+{
+    float: left;
+    box-sizing: border-box;
+}
+
+.d1 img
+{
+    width: 100%;
+    height: auto;
+	transition: all 0.7s;
+}
+.d1:hover img
+{
+	transform: scale(1.03);
+}
+.d2
+{
+    float: left;
+    box-sizing: border-box;
+}
+
+.title
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.des
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.info
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: block;
+}
+
+.price
+{
+    font-weight: bold;
+}
+
+.book
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.book:hover
+{
+	border: 1px solid gray;
+	color: gray;
+}
+
+/* Responsive with min-width = 1250px */
+@media screen and (min-width: 1250px)
+{
+    #body
+    {
+        margin-top: 130px;
+    }
+    .d
+    {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .d1
+    {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .d2
+    {
+        width: 50%;
+        padding-left: 70px;
+    }
+
+    .title
+    {
+        font-size: 1.3em;
+    }
+
+    .des
+    {
+        font-size: 1.15em;
+    }
+
+    .info
+    {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    .price
+    {
+        font-size: 1.2em;
+    }
+
+    .book
+    {
+        font-size: 1.3em;
+        height: 40px;
+        width: 200px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* Responsive with min-width = 950px and max-width = 1249px */
+@media screen and (max-width: 1249px) and (min-width: 950px)
+{
+	#body
+    {
+        margin-top: 150px;
+    }
+    .d
+    {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .d1
+    {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .d2
+    {
+        width: 50%;
+        padding-left: 70px;
+    }
+
+    .title
+    {
+        font-size: 1.3em;
+    }
+
+    .des
+    {
+        font-size: 1.15em;
+    }
+
+    .info
+    {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    .price
+    {
+        font-size: 1.2em;
+    }
+
+    .book
+    {
+        font-size: 1.3em;
+        height: 40px;
+        width: 200px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* Responsive with min-width = 870px and max-width = 949px */
+@media screen and (max-width: 949px) and (min-width: 870px)
+{
+	#body
+    {
+        margin-top: 150px;
+    }
+    .d
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .d1
+    {
+        width: 50%;
+        margin-bottom: 100px;
+    }
+
+    .d2
+    {
+        width: 50%;
+        padding-left: 70px;
+    }
+
+    .title
+    {
+        font-size: 1.3em;
+    }
+
+    .des
+    {
+        font-size: 1.15em;
+    }
+
+    .info
+    {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    .price
+    {
+        font-size: 1.2em;
+    }
+
+    .book
+    {
+        font-size: 1.3em;
+        height: 40px;
+        width: 200px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* Responsive with max-width = 869px */
+@media screen and (max-width: 869px)
+{
+	#body
+    {
+        margin-top: 100px;
+    }
+    .d
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .d1
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .d2
+    {
+        width: 100%;
+        padding-left: 70px;
+		margin-bottom: 70px;
+    }
+
+    .title
+    {
+        font-size: 1.3em;
+    }
+
+    .des
+    {
+        font-size: 1.15em;
+    }
+
+    .info
+    {
+        font-size: 1.2em;
+        margin-top: 15px;
+    }
+
+    .price
+    {
+        font-size: 1.2em;
+    }
+
+    .book
+    {
+        font-size: 1.3em;
+        height: 40px;
+        width: 200px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+}

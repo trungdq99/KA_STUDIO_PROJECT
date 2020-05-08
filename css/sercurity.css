@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*  Author: Trung Shin  */
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+	margin: 0px;
+    font-size: 18px;
+}
